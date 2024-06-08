@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Permanent Marker", cursive;
+}
+
+body {
+    max-width: 100vw;
+    max-height: 100vh;
+    overflow-x: hidden;
+}
+
+/* Header */
+
+header {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 100px;
+    background-color: rgb(72, 72, 214);
+}
+
+header img {
+    width: 60px;
+    transition: .8s ease-in-out;
+}
+
+header img:hover {
+    transform: rotate(360deg);
+}
+
+header .lista ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+
+header .lista ul li a {
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 700;
+    color: #000;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
+header ul li a:hover {
+    color: rgb(43, 247, 94);
+}
+
+/* Main */
+
+
+main {
+    width: 100vw;
+    height: 100%;
+}
+
+main .container-main {
+    max-width: 100vw;
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(72, 72, 214);
+}
+
+.container-main .container-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.container-main .container-img img {
+    width: 350px;
+}
+
+.container-main .container {
+    width: 70vw;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    background-color: rgba(43, 247, 94, 0.61);
+    border: 6px solid #000000;
+    border-style: double;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+    margin-bottom: 50px;
+}
+
+.container-main .container img {
+    width: 200px;
+}
+
+.container-main .container p {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 35px;
+    text-align: center;
+}

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../../css/scrollStyle.css">
+    <link rel="stylesheet" href="responsividade.css">
+    <link rel="icon" href="../../assets/Rick-and-Morty-Icone.png" type="image/x-icon">
+    <title>Rick & Morty</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+
+            <a href="../../index.html">
+                <img src="../../assets/Rick-Header.png" alt="rick and morty">
+            </a>
+
+            <ul>
+                <li>
+                    <a href="../personagens/index.html">Personagens</a>
+                </li>
+                <li>
+                    <a href="#">Localizações</a>
+                </li>
+            </ul>
+        </header>
+
+        <main>
+            <section class="container-locations">
+                <img src="../../assets/logo.svg" alt="" class="logo-img">
+
+                <div class="filters">
+
+                    <input type="text" id="search" placeholder="Filtre por nome" class="filter">
+
+                    <select name="type" id="type" class="filter">
+                        <option value="" default>
+                            Tipo
+                        </option>
+                        <option value="planet">Planeta</option>
+                        <option value="cluster">Cluster</option>
+                        <option value="space station">Space station</option>
+                        <option value="microverse">Microverse</option>
+                        <option value="tv">TV</option>
+                        <option value="resort">Resort</option>
+                        <option value="fantasy town">Fantasy town</option>
+                        <option value="dream">Dream</option>
+                        <option value="unknown">unknown</option>
+                        <option value="menagerie">Menagerie</option>
+                        <option value="game">Game</option>
+                        <option value="customs">Customs</option>
+                        <option value="daycare">Daycare</option>
+                        <option value="dwarf planet (Celestial Dwarf)">Dwarf planet (Celestial Dwarf)</option>
+                        <option value="miniverse">Miniverse</option>
+                        <option value="teenyverse">Teenyverse</option>
+                        <option value="box">Box</option>
+                        <option value="spacecraft">Spacecraft</option>
+                        <option value="artificially generated world">Artificially generated world</option>
+                        <option value="machine">Machine</option>
+                        <option value="arcade">Arcade</option>
+                        <option value="dream">Dream</option>
+                        <option value="spa">Spa</option>
+                        <option value="quadrant">Quadrant</option>
+                        <option value="quasar">Quasar</option>
+                        <option value="mount">Mount</option>
+                        <option value="liquid">Liquid</option>
+                        <option value="convention">Convention</option>
+                        <option value="woods">Woods</option>
+                        <option value="diegesis">Diegesis</option>
+                        <option value="non-Diegetic Alternative Reality">Non-Diegetic Alternative Reality</option>
+                        <option value="nightmare">Nightmare</option>
+                        <option value="asteroid">Asteroid</option>
+                        <option value="acid Plant">Acid Plant</option>
+                        <option value="reality">Reality</option>
+                        <option value="death Star">Death Star</option>
+                        <option value="base">Base</option>
+                        <option value="elemental Rings">Elemental Rings</option>
+                        <option value="space">Space</option>
+                        <option value="Hell">Hell</option>
+                        <option value="police Department">Police Department</option>
+                        <option value="country">Country</option>
+                        <option value="consciousness">Consciousness</option>
+                        <option value="memory">Memory</option>
+                    </select>
+
+                    <select name="dimension" id="dimension" class="filter">
+                        <option value="">
+                            Dimensão
+                        </option>
+                        <option value="dimension C-137">Dimension C-137</option>
+                        <option value="unknown">unknown</option>
+                        <option value="fantasy Dimension">Fantasy Dimension</option>
+                        <option value="Pizza Dimension">Pizza Dimension</option>
+                        <option value="magic Dimension">Magic Dimension</option>
+                        <option value="fascist Dimension">Fascist Dimension</option>
+                        <option value="fascist Shrimp Dimension">Fascist Shrimp Dimension</option>
+                        <option value="fascist Teddy Bear Dimension">Fascist Teddy Bear Dimension</option>
+                        <option value="post-Apocalyptic Dimension">Post-Apocalyptic Dimension</option>
+                        <option value="replacement Dimension">Replacement Dimension</option>
+                        <option value="cronenberg Dimension">Cronenberg Dimension</option>                  
+                        <option value="dimension 5-126">Dimension 5-126</option>
+                        <option value="testicle Monster Dimension">Testicle Monster Dimension</option>
+                        <option value="cromulon Dimension">Cromulon Dimension</option>
+                        <option value="dimension C-500A">Dimension C-500A</option>
+                        <option value="dimension K-83">Dimension K-83</option>
+                        <option value="dimension J19ζ7">Dimension J19ζ7</option>
+                        <option value="eric Stoltz Mask Dimension">Eric Stoltz Mask Dimension</option>
+                        <option value="evil Rick's Target Dimension">Evil Rick's Target Dimension</option>
+                        <option value="giant Telepathic Spiders Dimension">Giant Telepathic Spiders Dimension</option>
+                        <option value="unknown dimension">Unknown dimension</option>
+                        <option value="dimension K-22">Dimension K-22</option>
+                        <option value="dimension D-99">Dimension D-99</option>
+                        <option value="dimension D716">Dimension D716</option>
+                        <option value="dimension D716-B">Dimension D716-B</option>
+                        <option value="dimension D716-C">Dimension D716-C</option>
+                        <option value="dimension J-22">Dimension J-22</option>
+                        <option value="dimension C-35">Dimension C-35</option>
+                        <option value="chair Dimension">Chair Dimension</option>                                  
+                        <option value="wasp Dimension">Wasp Dimension</option>
+                        <option value="tusk Dimension">Tusk Dimension</option>
+                        <option value="space station">Space station</option>
+                        <option value="non-Diegetic Alternative Reality">Non-Diegetic Alternative Reality</option>
+                    </select>
+
+                </div>
+
+                <div class="location-container">
+                    <!-- <div class="location">
+                     <img src="" alt="">
+                        <div class="location-info">
+                            <h3>Planeta</h3>
+                            <span>Dimension C-137</span>
+                        </div>
+                    </div> -->
+
+                </div>
+
+                <button id="load-more">
+                    Carregar mais
+                </button>
+            </section>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
